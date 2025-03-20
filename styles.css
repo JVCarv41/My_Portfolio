@@ -226,17 +226,18 @@ a {
 /* Responsive Design */
 @media (max-width: 768px) {
   .header-content {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
   }
 
   .skills-list {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
